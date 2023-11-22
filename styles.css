@@ -1,1 +1,51 @@
 
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  main {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  search-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  search-results {
+    margin-top: 20px;
+  }
+  
+  .word-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .word-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .word-card p {
+    font-size: 16px;
+  }
+  
+  .delete-button {
+    float: right;
+    cursor: pointer;
+  }
+  
