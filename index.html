@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Dictionary App</title>
+    <script src="https://kit.fontawesome.com/4e8802c27a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <title>My Dictonary</title>
 </head>
 <body>
-    <header>
-        <h1>My Dictionary App</h1>
-    </header>
+    <div id="toasts"></div>
+    <nav>
+        <div class="logo-container">
+            <img class="logo" src="Dictionary Logo.png" alt="logo">
+            <h2>My DICTIONARY App</h2>
+        </div>
+        <button class="btn" data-primary-btn="history">HISTORY</button>
+    </nav>
     <main>
-        <section class="search-section">
-            <h2>Search for a new word</h2>
-            <form class="search-form">
-                <input type="text" placeholder="Enter a word..." required>
-                <button type="submit">Search</button>
-            </form>
-        </section>
-        <section class="history-section">
-            <h2>HISTORY</h2>
-            <ul class="history-list">
-                <!-- The searched words will be listed here -->
-            </ul>
-        </section>
+        <h1>Search for new word</h1>
+        <div class="search-container">
+            <input type="text" name="search" id="search" class="search-box" data-input>
+            <button class="search-btn" data-search-btn><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
     </main>
+    <div class="history">
+    </div>
+    <script src="App.js"></script>
 </body>
 </html>
